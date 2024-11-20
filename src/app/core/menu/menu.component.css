@@ -1,0 +1,47 @@
+
+
+mat-nav-list{
+  height: 100%;
+  padding-top: 3em;
+}
+
+.menubtn{
+
+  background-color: #1ED760; /* Color de fondo */
+  border-radius: 15px;
+  width: 100%;
+
+  color: rgb(0, 0, 0); /* Color del texto */
+  text-align: center;
+  font-size: 18px;
+  transition-duration: 0.1s;
+  cursor: pointer;
+}
+
+.menubtn:hover{
+
+  transform: scale(1.04);
+  /*box-shadow: 0 0 15px rgba(0, 0, 0, 0.6);*/
+
+}
+
+.inicio-logo{
+    position: relative;
+    margin-left: 1em;
+    align-items: center;
+    padding-bottom: 2em;
+    width: 175px;
+    height: auto;
+}
+
+
+.nav-link:hover {
+  background-color: #02bd56; /* Cambia el color de fondo al hacer hover */
+  color: #000000; /* Cambia el color del texto al hacer hover */
+  cursor: pointer; /* Cambia el cursor al hacer hover */
+  /* Agrega cualquier otro estilo deseado */
+}
+/* Rectangle 5 */
+
+
+

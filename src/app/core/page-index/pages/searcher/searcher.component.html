@@ -1,0 +1,23 @@
+<div class="row mb-4">
+  <div class="col">
+    <input #termino type="text" (keyup)="buscar(termino.value)" class="form-control" placeholder="Buscar algo...">
+  </div>
+</div>
+
+<div class="row row-cols-1 row-cols-md-3 g-4">
+  <div *ngFor="let artista of artistas | paginate: { itemsPerPage: 6, currentPage: currentPage }" class="col mb-4">
+    <div class="card">
+      <a [href] = "artista.uri">
+        <img [src]="artista.images | noimage" class="card-img-top">
+      </a>
+      <div class="card-body">
+        <h5 class="card-title">{{artista.name}}</h5>
+      </div>
+    </div>
+  </div>
+</div>
+
+<div class="container">
+  <pagination-controls class="my-pagination p-3" (pageChange)="currentPage = $event"></pagination-controls>
+</div>
+

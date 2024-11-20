@@ -1,0 +1,42 @@
+
+.side{
+  width: 250px;
+  max-width: 250px;
+  height: 100%;
+  background-color: #ffffff;
+  padding: 0.5em;
+  float: left;
+}
+
+
+.main-content {
+  padding: 20px; /* Añade relleno al contenido */
+  margin-left: 250px; /* Deja espacio para el menú lateral */
+  width: calc(100% - 250px);
+  display: flex;
+  flex-direction: column;
+  height: 100vh;
+  overflow-y: auto;
+}
+
+
+.clearfix::after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+.cont{
+  border-radius: 10px;
+}
+
+mat-card{
+  color: black;
+  flex: 1;
+}
+
+.contenedor{
+  background-color: #d7d7d7;
+}
+
+

@@ -1,0 +1,21 @@
+.canvas-container {
+  width: 300px;
+  height: 200px;
+  border: 1px solid #ccc;
+}
+
+.card:hover{
+  transform: scale(1.10);
+  box-shadow: 0 0 15px rgba(0, 0, 0, 0.8);
+}
+
+.card:hover .card-img-top{
+  filter: brightness(80%);
+}
+
+
+.container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}

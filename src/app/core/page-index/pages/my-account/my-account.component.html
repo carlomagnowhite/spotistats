@@ -1,0 +1,70 @@
+<section style="background-color: #b8b8b8;" >
+  <div class="container py-5">
+    <div class="row">
+      <div class="col-lg-4">
+        <div class="card mb-4">
+          <div class="card-body text-center">
+            <img [src]="myProfile.images[1].url" alt="avatar"
+              class="rounded-circle img-fluid" style="width: 150px;">
+            <h5 class="my-3">{{myProfile.display_name}}</h5>
+            <p class="text-muted mb-1">{{myProfile.email}}</p>
+            <a [href]="myProfile.uri">
+              <button class="btn btn-success" >Ir a Spotify</button>
+            </a>
+          </div>
+        </div>
+      </div>
+      <div class="col-lg-8">
+        <div class="card mb-4 p-2">
+          <div class="card-body">
+            <div class="row">
+              <div class="col-sm-3">
+                <p class="mb-0"><Strong>Nombre</Strong></p>
+              </div>
+              <div class="col-sm-9">
+                <p class="text-muted mb-0">{{myProfile.display_name}}</p>
+              </div>
+            </div>
+            <hr>
+            <div class="row">
+              <div class="col-sm-3">
+                <p class="mb-0"><strong>Email</strong></p>
+              </div>
+              <div class="col-sm-9">
+                <p class="text-muted mb-0">{{myProfile.email}}</p>
+              </div>
+            </div>
+            <hr>
+            <div class="row">
+              <div class="col-sm-3">
+                <p class="mb-0"><strong>País</strong></p>
+              </div>
+              <div class="col-sm-9">
+                <p class="text-muted mb-0">{{myProfile.country}}</p>
+              </div>
+            </div>
+            <hr>
+            <div class="row">
+              <div class="col-sm-3">
+                <p class="mb-0"><strong>Tipo</strong></p>
+              </div>
+              <div class="col-sm-9">
+                <p class="text-muted mb-0">{{myProfile.product}} - {{myProfile.type}}</p>
+              </div>
+            </div>
+            <hr>
+            <div class="row">
+              <div class="col-sm-3">
+                <p class="mb-0"><strong>Seguidores</strong></p>
+              </div>
+              <div class="col-sm-9">
+                <p class="text-muted mb-0">{{myProfile.followers.total}}</p>
+              </div>
+            </div>
+          </div>
+        </div>
+
+      </div>
+    </div>
+  </div>
+</section>

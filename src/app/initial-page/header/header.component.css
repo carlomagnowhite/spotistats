@@ -1,0 +1,61 @@
+/* HeaderInicial */
+
+.nav{
+  background-color: #FFFF;
+}
+.container-header{
+position: absolute;
+width: 1440px;
+height: 110px;
+left: 0px;
+top: 0px;
+}
+
+.logo{
+  position: relative;
+  margin-left: 1em;
+  width: 175px;
+  height: auto;
+}
+
+.comenzar{
+  background-color: #1ED760; /* Color de fondo */
+  border-radius: 25px;
+  color: rgb(0, 0, 0); /* Color del texto */
+  padding: 10px 25px;
+  text-align: center;
+  display: inline-block;
+  font-size: 18px;
+  transition-duration: 0.1s;
+  cursor: pointer;
+}
+
+.header{
+  background: #FFFF;
+}
+
+
+.item{
+  font-size: 20px;
+  left: 703px;
+  top: 81px;
+}
+
+/* Sobre nosotros
+
+position: absolute;
+width: 165px;
+height: 30px;
+
+
+font-family: 'Gothic A1';
+font-style: normal;
+font-weight: 400;
+font-size: 24px;
+line-height: 30px;
+/* identical to box height
+
+color: #000000;
+*/
+
+

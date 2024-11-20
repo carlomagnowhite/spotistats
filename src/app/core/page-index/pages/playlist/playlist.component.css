@@ -1,0 +1,29 @@
+.card:hover{
+  transform: scale(1.07);
+  box-shadow: 0 0 15px rgba(0, 0, 0, 0.8);
+}
+
+.card:hover .card-img-top{
+  filter: brightness(80%);
+}
+
+.sticky-container {
+  position: sticky;
+  top: 0px;
+  z-index: 1000;
+}
+
+.my-pagination ::ng-deep .ngx-pagination .current {
+  background-color: rgb(43, 164, 13);
+  color: white;
+  border-radius: 50%;
+  padding: 5px 10px;
+  font-weight: bold;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+}
+
+.container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}

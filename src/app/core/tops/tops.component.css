@@ -1,0 +1,43 @@
+.prev:hover{
+  transform: scale(1.03);
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.8);
+}
+
+.prev:hover .carousel-control-prev{
+  filter: brightness(80%);
+}
+
+img{
+  opacity: 85%;
+}
+
+/* Estilo para el elemento h1 */
+
+h1 {
+  color: white;
+  background-color: rgba(0, 0, 0, 0.5);
+  padding: 10px;
+  border-radius: 20px;
+  text-align: center;
+  font-family: Arial, sans-serif;
+  font-size: 32px;
+  text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
+}
+
+p{
+  color: white;
+  background-color: rgba(0, 0, 0, 0.6);
+  padding: 8px;
+  border-radius: 20px;
+  text-align: center;
+  font-family: Arial, sans-serif;
+  font-size: 22px;
+  text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.50);
+}
+
+.sticky-container {
+  position: sticky;
+  top: 0px;
+  z-index: 1000;
+}
+
